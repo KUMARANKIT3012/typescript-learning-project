@@ -1,3 +1,40 @@
 {
-  "type": "module"
+  "name": "typescript-learning-project",
+  "version": "1.0.0",
+  "description": "A comprehensive TypeScript learning project showcasing fundamentals, advanced concepts, and real-world implementations",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "type-check": "tsc --noEmit"
+  },
+  "keywords": [
+    "typescript",
+    "javascript",
+    "learning",
+    "tutorial",
+    "programming",
+    "web-development",
+    "types",
+    "interfaces",
+    "classes",
+    "generics"
+  ],
+  "author": "Ankit Kumar <your-email@example.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KUMARANKIT3012/typescript-learning-project.git"
+  },
+  "homepage": "https://github.com/KUMARANKIT3012/typescript-learning-project#readme",
+  "bugs": {
+    "url": "https://github.com/KUMARANKIT3012/typescript-learning-project/issues"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
 }
